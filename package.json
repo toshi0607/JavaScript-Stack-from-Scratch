@@ -9,7 +9,18 @@
   "author": "toshi0607 <s.toshi0607@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
 }
