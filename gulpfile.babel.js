@@ -8,7 +8,7 @@ import webpack from 'webpack-stream';
 import webpackConfig from './webpack.config.babel';
 
 const paths = {
-  allSrcJs: 'src/**/*.js',
+  allSrcJs: 'src/**/*.js?(x)',
   serverSrcJs: 'src/server/**/*.js?(x)',
   sharedSrcJs: 'src/shared/**/*.js?(x)',
   clientEntryPoint: 'src/client/app.jsx',
