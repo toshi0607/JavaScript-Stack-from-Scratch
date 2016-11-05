@@ -1,0 +1,14 @@
+{
+  "name": "JavaScript-Stack-from-Scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:toshi0607/JavaScript-Stack-from-Scratch.git",
+    "type": "git"
+  },
+  "author": "toshi0607 <s.toshi0607@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  }
+}
